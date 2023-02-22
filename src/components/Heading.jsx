@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 const Heading = () => {
   return (
-    <div className="heading">
+    <div className="mainHeading">
       <Navbar />
       <div className="headingContainer">
         <h1>Say hello to ReactJS</h1>

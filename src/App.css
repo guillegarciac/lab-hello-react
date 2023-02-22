@@ -1,0 +1,56 @@
+h1 {
+  font-size: 3rem;
+  margin: 0px;
+}
+
+/* CARDS */
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  width: 300px;
+}
+
+/* HEADING */
+.mainHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url('/public/reactBkg.jpeg');
+  background-position: center;
+  padding: 50px;
+  height: 45vh;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
+  color: white;
+}
+
+.headingContainer button {
+  width: 150px;
+  padding: 15px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border-width: thin;
+}
+
+/* NAVBAR */
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navBar > #menuIcon {
+  height: 15px;
+  width: auto;
+}
